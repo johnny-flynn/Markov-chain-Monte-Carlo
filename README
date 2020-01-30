@@ -1,0 +1,18 @@
+To run this program, navigate to the directory where it is located, and run
+the command:
+
+    python3 bayes.py
+
+This will give you the outputs for each of the 5 runs.
+
+If you have PyCharm installed (or have a way to get matplotlib working thorugh
+your command line), then you can go through the program and uncomment the
+following lines:
+
+    Line 2: import matplotlib
+    Lines 60-108: showGraph function
+    Line 149: call showGraph function
+
+Doing so and running the program will execute the same way, except it will
+show a nice line plot of the 5 runs and their values in graph form. This is
+a great way to see how the values converge as the iterations get higher.
